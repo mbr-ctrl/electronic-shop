@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import '../css/Banner.css'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -13,3 +14,5 @@ const Banner = () => {
         </div>
     )
 }
+
+export default Banner

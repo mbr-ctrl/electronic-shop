@@ -1,13 +1,15 @@
 import React from 'react'
-import Banner from './Banner'
+import Header from './Header'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import ElectoItems from './electroItems'
 
 
 class App extends React.Component{
     render() {
         return(
             <div className="container">
-                <Banner/>
+                <Header/>
+                <ElectoItems/>
             </div>
         )
     }
